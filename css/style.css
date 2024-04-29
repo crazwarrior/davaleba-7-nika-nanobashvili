@@ -1,0 +1,108 @@
+.b1{
+    background-image: url(https://img.freepik.com/premium-photo/man-working-computer-desk-office-night_680471-526.jpg?w=740);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ 
+  .a2{
+position: relative;
+    width: 20px;
+    height: 30px;
+    animation: mymove1 12s ease-in 0s 1;
+  }
+@keyframes mymove1 {
+    0% {top: 75px; left: 700px;opacity: 1;}
+    5%{top: 75px; left: 650px;opacity: 1;}
+    10%{top: 75px; left: 725px;opacity: 1;}
+    15%{top: 75px; left: 625px; opacity: 1;}
+    20%{top: 75px; left: 745px; opacity: 1;}
+    25%{top: 75px; left: 615px; opacity: 1;}
+    30%{top: 75px; left: 525px; opacity: 1;}
+    35%{top: 75px; left: 425px; opacity: 1;}
+    60%{top: 400px; left: 425px; opacity: 1;}
+    65%{top: 400px; left: 421px; opacity: 1;}
+    70%{top: 400px; left: 381px; opacity: 1;}
+    75%{top: 400px; left: 324px; opacity: 1;}
+    80%{top: 475px; left: 323px; opacity: 1;}
+    85%{top: 575px; left: 315px; opacity: 1;}
+    90%{top: 545px; left: 415px; opacity: 1;}
+    95%{top: 555px; left: 435px; opacity: 1;}
+    98%{top: 515px; left: 465px; opacity: 1;}
+    100%{opacity: 0;}
+}
+.a2{
+    position: relative;
+    top: 515px;
+    left: 465px;
+    opacity: 0
+}
+.a2:hover{
+    opacity: 1;
+}
+.a3{
+    position: relative;
+    top: 500px;
+    left: 1185px;
+    width: 20px;
+    height: 25px;
+    transition: 0.6s;
+    opacity: 0;
+    animation: mymove2 10s ease-in 12s 1;
+}
+.a3:hover{
+    opacity:1;
+
+}
+@keyframes mymove2 {
+    0%{top: 515px; left: 465px; opacity: 1;}
+    10%{top: 555px; left: 465px; opacity: 1;} 
+    20%{top: 555px; left: 505px; opacity: 1;}
+    30%{top: 600px; left: 555px; opacity: 1;}
+    40%{top: 515px; left: 555px; opacity: 1;}
+    50%{top: 515px; left: 725px; opacity: 1;}
+    60%{top: 600px; left: 725px; opacity: 1;}
+    70%{top: 555px;left: 755px; opacity: 1;}
+    85%{top: 505px; left: 1095px; opacity: 1;}
+    95%{top: 515;  left: 1185px; opacity: 1;}
+    100%{opacity: 0;}
+
+}
+.a4{
+    position: relative;
+    top: 600px;
+    left: 1080px;
+    width: 35px;
+    height: 40px;
+    opacity: 0;
+    transition: 3s;
+}
+.a4:hover{
+    opacity: 1;
+}
+.a1{
+    position: relative;
+    top: 400px;
+    left: 1160px;
+    height: 35px;
+    width: 30px;
+    opacity: 0;
+    transition: 1s;
+    animation: mymove 25s ease-in 0.9s;
+}
+@keyframes mymove {
+    0%{top: 200px; left: 130px; opacity: 1;}
+    10%{top: 155px; left: 140px; opacity: 1;}
+    20%{top: 180px; left: 280px; opacity: 1;}
+    30%{top: 100px; left: 340px; opacity: 1;}
+    40%{top: 65px; left: 480px; opacity: 1;}
+    50%{top: 65px; left: 740px; opacity: 1;}
+    60%{top: 150px; left: 860px; opacity: 1;}
+    70%{top: 130px; left: 925px; opacity: 1;}
+    80%{top: 130px; left: 950px; opacity: 1;}
+    90%{top: 370px; left: 1000px; opacity: 1;}
+    96%{top: 400px; left:1200px ; opacity: 1;}
+    100%{opacity: 0;}
+}
+.a1:hover{
+    opacity: 1;
+}
